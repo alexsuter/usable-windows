@@ -8,3 +8,4 @@ function installLatestFirefox {
   Remove-Item -Path $firefoxInstallerPath
   Write-Host "Firefox installed"
 }
+installLatestFirefox
